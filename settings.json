@@ -4,14 +4,14 @@
   "zenMode.centerLayout": false,
 
   // Theming
-  "workbench.iconTheme": "bearded-icons",
+  "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
   "editor.fontLigatures": false,
-  "workbench.preferredLightColorTheme": "Palenight Operator",
-  "workbench.preferredDarkColorTheme": "Palenight Operator",
+  "workbench.preferredLightColorTheme": "Monokai Pro Light (Filter Sun)",
+  "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Ristretto)",
   "editor.fontFamily": "\"SauceCodePro Nerd Font\", Menlo, Monaco, 'Courier New', monospace",
   "editor.codeLensFontSize": 13,
   "editor.fontSize": 15,
-  "editor.lineHeight": 1.9,
+  "editor.lineHeight": 1.75,
   "editor.suggestLineHeight": 28,
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1,
@@ -21,7 +21,6 @@
   "editor.minimap.enabled": false,
   "editor.glyphMargin": false,
   "editor.folding": true,
-  "editor.lineNumbers": "off",
   "workbench.editor.showTabs": "multiple",
   "workbench.editor.pinnedTabSizing": "compact",
   "workbench.editor.tabSizing": "shrink",
@@ -46,8 +45,8 @@
     "**/vendor/*": true,
     "**/node_modules": true,
     "**/dist": true,
-    "**/package-lock.json": true,
-    "**/yarn.lock": true
+    "**/package-lock.json": false,
+    "**/yarn.lock": false
   },
 
   // Code
@@ -71,14 +70,14 @@
     "CODE_OF_CONDUCT.md": true,
     "config": false,
     "LICENSE.md": true,
-    "package-lock.json": true,
+    "package-lock.json": false,
     "phpcs.xml": true,
 
     // For more minimal option
     ".editorconfig": true,
     "prettier.config.js": true,
     // "**/README.md": true,
-    "yarn.lock": true,
+    "yarn.lock": false,
     "node_modules/": false,
     ".gitignore": true,
     ".output/node_modules/": false,
@@ -88,7 +87,7 @@
     ".next": true,
     ".output": true,
     "package.json": false,
-    "tsconfig.json": true
+    "tsconfig.json": false
   },
   "editor.semanticHighlighting.enabled": true,
   "editor.linkedEditing": true,
@@ -116,5 +115,12 @@
   "workbench.sideBar.location": "right",
   "githubPullRequests.pushBranch": "always",
   "git.enableSmartCommit": true,
-  "workbench.colorTheme": "Palenight Theme"
+  "editor.accessibilitySupport": "off",
+  "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+  "workbench.productIconTheme": "icons-carbon-tweaked",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "block",
+  "editor.lineNumbers": "off",
+  "explorer.confirmPasteNative": false,
+  "editor.formatOnPaste": true
 }
